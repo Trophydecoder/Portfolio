@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(access/background\ For\ about\ me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+ background-color: black;
+}
+.ContainerForNavHeader{
+    width: 100%;
+    height: 40vh;
+}
+#logo{
+  width:20% ;
+}
+.Navbar{
+  height: 10vh;
+}
+.Navbar a{
+  display:none;
+  
+}
+.sidenav {
+height: 100%;
+width: 0;
+position:fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #fffefe;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color:#545F59;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #46280c;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+.Menubar{
+  color:#ffffff;
+  padding-left: 2%;
+}
+/*EXIT NAV*/
+.leftsideheader{
+    color: white;
+    width: 100%;
+    height: 15vh;
+    padding-top: 5%;
+}
+
+.ContainerAbout{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    width: 100%;
+  }
+  .AboutLeft{
+    height: 40vh;
+  }
+  .AboutLeft p{
+   color:#6d7471; 
+  }
+  .AboutLeft h1{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+   }
+   .AboutLeft h2{
+    color: #6d7471; 
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 6%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+   }
+   #detailsimg{
+    width: 100%;
+   }
+   .ContainerforImageRight{
+    height: 40vh;
+    
+   }
+   #Aboutimg{
+    width: 100%;
+   }
+   .ContainerPortfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   .ContainerFooter{
+    padding-top: 10%;
+  }
+   footer {
+    background-color: #131313;
+    color: #f0f0f0;
+    padding: 50px 0 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h3 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .footer-section h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30px;
+    height: 2px;
+    background-color:#f5f5f5; 
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #b0b0b0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color:#e2e2e2; 
+  }
+  
+  .footer-section ul li a i {
+    margin-right: 5px;
+    color:#6d7471; 
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:#6d7471; 
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color:#6d7471; 
+    transform: translateY(-3px);
+  }
+  
+  
+  
+  
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    position: relative;
+    color: rgb(151, 151, 151);
+  }
+  
+  .back-to-top {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color :#6d7471; 
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-top:hover {
+    background-color:#6d7471; 
+  }
+  
+
+   @media screen and (min-width:1024px){
+    .Navbar{
+      flex-direction: row;
+      display: flex;
+      height: 10vh;
+      
+      
+      
+    }
+    .Menubar{
+      display: none;
+    }
+    .Navbar a{
+      display: flex;
+      text-decoration: none;
+      color:#555555;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      transition: 1s;
+      padding: 2%;
+    }  
+   .ContainerAbout{
+    display:flex;
+    flex-direction:row;
+  }
+  .AboutLeft h1{
+    padding-top: 10%;
+    padding-left: 15%;
+  }
+  .AboutLeft p{
+    padding-left: 15%;
+   }
+   .AboutLeft h2{
+    padding-left: 15%;
+   }
+  .AboutLeft{
+    height: 50vh;
+    width: 50%;
+  }
+  #detailsimg{
+    padding-left: 15%;
+    }
+  #Aboutimg{
+    width: 100%;
+   }
+}
+
+@media screen and (min-width:1114px){
+    .AboutLeft{
+        height: 75vh;
+      }
+
+    }
+@media screen and (min-width:2560px){
+    .AboutLeft{
+        height: 80vh;
+      }
+    }
