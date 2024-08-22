@@ -349,12 +349,22 @@ font-optical-sizing: auto;
   
 
 @media only screen and (min-width:1024px) {
-  
-.Navbar a{
-  display:flex;
-  display: flex;
-  flex-direction: row;
-}
+.Navbar{
+    flex-direction: row;
+    display: flex;
+    height: 10vh;
+  }
+  .Navbar a{
+    display: flex;
+    text-decoration: none;
+    color:#555555;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+    padding: 2%;
+  }  
+
 .Menubar{
   display: none;
 }
@@ -379,4 +389,4 @@ font-optical-sizing: auto;
     width: 80%;
    padding-left: 20%;
    }
-}
+  }
